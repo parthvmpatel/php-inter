@@ -1,0 +1,10 @@
+HELP TO START THE GIT FOR NEW PROJECT AND WITH PULL AND PUSH COMMEND 
+(url)[https://www.youtube.com/watch?v=TOuUnKvQfNs]
+step 1> git init
+step 2> git status #(to see the status of the file is there any update to be push if there is file to push then it will be read)
+step 3> git add . #(this help to add '.' will help to add all file and then when we chack status it's turn to green 'This code is used only first time of creating new repo')
+step 4> git commit -m "add your comment" #(for the push we need to add the comment first)
+step 5> git remote add origin http://then_the_url_you_get #(This will help to connect to the git account)
+step 6> git remote -v #(Help to chack weather the link is added or not and are ready to push and pull)
+step 7> git push -u origin master #(help to push the data)
+step 8> git pull #(Help to pull the data from perticual git repositry)
