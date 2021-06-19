@@ -43,8 +43,8 @@
                 </thead>
                 <tbody>
                     <?php
-                        include_once 'connect.php';     
-                        $result = mysqli_query($con, "SELECT * FROM formdata");
+                        include_once 'sqlquery.php';
+                        $result = display();
                         $ch = mysqli_num_rows($result);
                         if ($ch > 0){
                             while ($row = $result->fetch_assoc()) {
